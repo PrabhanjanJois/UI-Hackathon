@@ -103,11 +103,16 @@ export default function MobileMenu({ isOpen, onClose, theme }) {
   return (
     <>
       <div
-        className={`fixed inset-0 bg-black z-40 transition-opacity duration-300 pointer-events-none ${
-          isOpen ? "pointer-events-auto" : ""
+        className={`fixed inset-0 bg-black z-40 transition-opacity duration-300 ${
+          isOpen ? "pointer-events-auto" : "pointer-events-none"
         }`}
         style={{ opacity: overlayOpacity }}
-        onClick={onClose}
+        onClick={() => {
+          console.log("overlay clicked");
+          if (currentMenu === "main") {
+            onClose();
+          }
+        }}
       />
 
       <div
