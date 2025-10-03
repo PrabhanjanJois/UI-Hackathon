@@ -1,4 +1,4 @@
-# UI Hacjkathon
+# UI Hackathon
 
 ## Installation and Running the Project
 
