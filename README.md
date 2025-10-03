@@ -21,11 +21,13 @@ npm install
 npm run dev
 ```
 
+---
 ## Deployment And Demo
 
 - This project is deployed on **Netlify**:  
   [Live Demo Link](https://ui-hackathon-001.netlify.app/)
 
+---
 ### Snapshots of Application
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/afc3b3fd-c2ed-4091-8060-3e955d935071" />
