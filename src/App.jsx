@@ -40,16 +40,14 @@ function App() {
   return (
     <div className={containerClass}>
       <div className="flex flex-col items-center gap-6">
-        <div id="root">
+        <div id="root" data-testid="app-root">
           <button
             onClick={toggleMenu}
-            className="px-6 py-3 bg-blue-600 text-white rounded-lg shadow-lg hover:bg-blue-700 transition"
+            className="px-6 py-3 bg-blue-600 text-white rounded-lg shadow-lg hover:bg-blue-700 transition cursor-pointer"
           >
             Open Menu
           </button>
         </div>
-
-        {/* 🌗 Mode Switch */}
         <div className="flex items-center gap-3">
           <Sun
             className={`w-5 h-5 transition-colors duration-300 ${
@@ -85,6 +83,7 @@ function App() {
       <Suspense fallback={null}>
         {isMobile ? (
           <MobileMenu
+            data-testid="mobile-menu"
             isOpen={isMenuOpen}
             onClose={() => setIsMenuOpen(false)}
             theme={theme}
@@ -92,6 +91,7 @@ function App() {
           />
         ) : (
           <DesktopSidebar
+            data-testid="desktop-sidebar"
             isOpen={isMenuOpen}
             onClose={() => setIsMenuOpen(false)}
             theme={theme}

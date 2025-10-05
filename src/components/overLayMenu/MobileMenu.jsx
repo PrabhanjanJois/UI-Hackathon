@@ -148,6 +148,7 @@ export default function MobileMenu({ isOpen, onClose, theme }) {
         <>
           {/* Overlay */}
           <motion.div
+            data-testid="mobile-menu"
             className="fixed inset-0 bg-black z-40"
             variants={overlayVariants}
             initial="hidden"

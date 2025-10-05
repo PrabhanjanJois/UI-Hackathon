@@ -117,6 +117,7 @@ export default function DesktopSidebar({ isOpen, onClose, theme }) {
       <AnimatePresence>
         {isOpen && (
           <motion.div
+            data-testid="desktop-sidebar"
             initial={{ opacity: 0 }}
             animate={{ opacity: 0.4 }}
             exit={{ opacity: 0 }}
