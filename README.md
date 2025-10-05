@@ -25,8 +25,8 @@ After the initial 2-hour build, the following improvements were made over the we
 
 - **Smoother Animations** – Enhanced transitions using Framer Motion  
 - **UI Enhancements** – Updated button styles and overall interface refinements  
-- **Unit Testing** – Added tests using Vitest for key components  
-- **Performance Improvements** – Optimized rendering and reduced unnecessary re-renders
+- **Unit Testing** – Added tests using Vitest, achieving **95% test coverage**  
+- **Performance Improvements** – Implemented **lazy loading of components** to optimize rendering
 
 ### Video Demo
 
