@@ -1,5 +1,40 @@
 # UI Hackathon
 
+## Hackathon Day: Quick 2-Hour Build
+
+This project was built during a **2-hour UI Hackathon**, focusing on a responsive and interactive menu interface.
+
+### Features
+
+- **Mobile & Desktop Menu View** – Seamless menu experience across devices  
+- **Dark & Light Mode** – Toggle between themes  
+- **Nested Submenus** – Organize menu items with expandable submenus  
+- **Minimal Animations** – Smooth transitions for an engaging UI
+  
+### Screenshots & Demo PDF
+
+You can view all the UI screenshots and demo flow in this PDF:  
+[UI Hackathon Demo PDF](https://drive.google.com/file/d/1e8lR__KUMbBcj2R_24lYiO8MkCDppAue/view?usp=sharing)
+
+---
+## Weekend Improvements: Post-Hackathon Enhancements
+
+After the initial 2-hour build, the following improvements were made over the weekend to enhance the project:
+
+### Improvements
+
+- **Smoother Animations** – Enhanced transitions using **Framer Motion**
+- **Breadcrumb Navigation** – Added breadcrumbs in desktop view for better UX
+- **UI Enhancements** – Updated button styles and overall interface refinements  
+- **Unit Testing** – Added tests using Vitest, achieving **95% test coverage**  
+- **Performance Improvements** – Implemented **lazy loading of components** to optimize rendering
+
+### Video Demo
+
+You can watch a video showcasing the updated UI and improvements here:  
+[UI Hackathon Weekend Improvements Video](https://drive.google.com/file/d/1lnXe_5kxrr8LL4MxErBfl_ALk6o_ZBSR/view?usp=sharing)
+
+---
 ## Installation and Running the Project
 
 ### Step 1: Clone the repository
@@ -20,18 +55,17 @@ npm install
 ```bash
 npm run dev
 ```
+### Step 4: Run tests with coverage
 
+```bash
+npm run test:coverage
+```
 ---
-## Deployment And Demo
+## Deployment
 
 - This project is deployed on **Netlify**:  
   [Live Demo Link](https://ui-hackathon-001.netlify.app/)
 
 ---
-### Snapshots of Application
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/afc3b3fd-c2ed-4091-8060-3e955d935071" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5fce64f0-5d2a-49b6-a9e2-36ffd134fc61" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9ee082c8-4940-4bec-8c3a-8287cb24c639" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/030bf7ef-b8a1-4c6d-a38e-754d40298499" />
 
