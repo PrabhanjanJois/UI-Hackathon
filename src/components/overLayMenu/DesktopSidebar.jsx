@@ -32,23 +32,22 @@ export default function DesktopSidebar({ isOpen, onClose, theme }) {
   const currentMenu = menuHistory[menuHistory.length - 1];
   const activeMenu = menuData[currentMenu];
 
-  // Custom scrollbar styles
   const scrollbarStyles = `
-    .breadcrumb-scroll::-webkit-scrollbar {
+    .custom-scroll::-webkit-scrollbar {
+      width: 6px;
       height: 4px;
     }
-    .breadcrumb-scroll::-webkit-scrollbar-track {
+    .custom-scroll::-webkit-scrollbar-track {
       background: transparent;
     }
-    .breadcrumb-scroll::-webkit-scrollbar-thumb {
+    .custom-scroll::-webkit-scrollbar-thumb {
       background: ${theme === "dark" ? "#4B5563" : "#D1D5DB"};
-      border-radius: 2px;
+      border-radius: 3px;
     }
-    .breadcrumb-scroll::-webkit-scrollbar-thumb:hover {
+    .custom-scroll::-webkit-scrollbar-thumb:hover {
       background: ${theme === "dark" ? "#6B7280" : "#9CA3AF"};
     }
   `;
-
   const pageVariants = {
     enter: {
       x: "100%",
@@ -184,7 +183,7 @@ export default function DesktopSidebar({ isOpen, onClose, theme }) {
               />
               <div
                 ref={breadcrumbRef}
-                className="breadcrumb-scroll flex items-center gap-1.5 flex-1 overflow-x-auto overflow-y-hidden py-2"
+                className="custom-scroll flex items-center gap-1.5 flex-1 overflow-x-auto overflow-y-hidden py-2"
                 style={{ scrollBehavior: "smooth" }}
               >
                 {menuHistory.slice(1).map((menu, index) => {
@@ -271,7 +270,7 @@ export default function DesktopSidebar({ isOpen, onClose, theme }) {
               initial="enter"
               animate="center"
               exit="exit"
-              className="absolute inset-0 overflow-y-auto px-6 py-6"
+              className="custom-scroll absolute inset-0 overflow-y-auto px-6 py-6"
               style={{ willChange: "transform, opacity" }}
             >
               {/* Menu Items */}

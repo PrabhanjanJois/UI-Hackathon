@@ -40,12 +40,14 @@ function App() {
   return (
     <div className={containerClass}>
       <div className="flex flex-col items-center gap-6">
-        <button
-          onClick={toggleMenu}
-          className="px-6 py-3 bg-blue-600 text-white rounded-lg shadow-lg hover:bg-blue-700 transition"
-        >
-          Open Menu
-        </button>
+        <div id="root">
+          <button
+            onClick={toggleMenu}
+            className="px-6 py-3 bg-blue-600 text-white rounded-lg shadow-lg hover:bg-blue-700 transition"
+          >
+            Open Menu
+          </button>
+        </div>
 
         {/* 🌗 Mode Switch */}
         <div className="flex items-center gap-3">
@@ -64,10 +66,10 @@ function App() {
             />
             <div
               className="w-14 h-7 bg-gray-300 peer-focus:outline-none rounded-full peer
-              peer-checked:after:translate-x-7 peer-checked:after:border-white
-              after:content-[''] after:absolute after:top-[2px] after:left-[2px]
-              after:bg-white after:border-gray-300 after:border after:rounded-full
-              after:h-6 after:w-6 after:transition-all peer-checked:bg-gray-700"
+                peer-checked:after:translate-x-7 peer-checked:after:border-white
+                after:content-[''] after:absolute after:top-[2px] after:left-[2px]
+                after:bg-white after:border-gray-300 after:border after:rounded-full
+                after:h-6 after:w-6 after:transition-all peer-checked:bg-gray-700"
             ></div>
           </label>
 
