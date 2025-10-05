@@ -6,7 +6,7 @@ This project was built during a **2-hour UI Hackathon**, focusing on a responsiv
 
 ---
 
-## Features
+### Features
 
 - **Mobile & Desktop Menu View** – Seamless menu experience across devices  
 - **Dark & Light Mode** – Toggle between themes  
