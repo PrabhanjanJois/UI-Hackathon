@@ -23,7 +23,8 @@ After the initial 2-hour build, the following improvements were made over the we
 
 ### Improvements
 
-- **Smoother Animations** – Enhanced transitions using **Framer Motion**  
+- **Smoother Animations** – Enhanced transitions using **Framer Motion**
+- **Breadcrumb Navigation** – Added breadcrumbs in desktop view for better UX
 - **UI Enhancements** – Updated button styles and overall interface refinements  
 - **Unit Testing** – Added tests using Vitest, achieving **95% test coverage**  
 - **Performance Improvements** – Implemented **lazy loading of components** to optimize rendering
