@@ -23,7 +23,7 @@ After the initial 2-hour build, the following improvements were made over the we
 
 ### Improvements
 
-- **Smoother Animations** – Enhanced transitions using Framer Motion  
+- **Smoother Animations** – Enhanced transitions using **Framer Motion**  
 - **UI Enhancements** – Updated button styles and overall interface refinements  
 - **Unit Testing** – Added tests using Vitest, achieving **95% test coverage**  
 - **Performance Improvements** – Implemented **lazy loading of components** to optimize rendering
@@ -60,7 +60,7 @@ npm run dev
 npm run test:coverage
 ```
 ---
-## Deployment And Demo
+## Deployment
 
 - This project is deployed on **Netlify**:  
   [Live Demo Link](https://ui-hackathon-001.netlify.app/)
