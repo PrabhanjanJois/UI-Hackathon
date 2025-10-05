@@ -17,6 +17,23 @@ You can view all the UI screenshots and demo flow in this PDF:
 [UI Hackathon Demo PDF](https://example.com/UI-Hackathon-Demo.pdf)
 
 ---
+## Weekend Improvements: Post-Hackathon Enhancements
+
+After the initial 2-hour build, the following improvements were made over the weekend to enhance the project:
+
+### Improvements
+
+- **Smoother Animations** – Enhanced transitions using Framer Motion  
+- **UI Enhancements** – Updated button styles and overall interface refinements  
+- **Unit Testing** – Added tests using Vitest for key components  
+- **Performance Improvements** – Optimized rendering and reduced unnecessary re-renders
+
+### Video Demo
+
+You can watch a video showcasing the updated UI and improvements here:  
+[UI Hackathon Weekend Improvements Video](https://example.com/UI-Hackathon-Weekend-Improvements.mp4)
+
+---
 ## Installation and Running the Project
 
 ### Step 1: Clone the repository
