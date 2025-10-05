@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback, lazy, Suspense } from "react";
 import { Moon, Sun } from "lucide-react";
-import "./App.css"; // Include your animations here
+import "./App.css";
 
 const MobileMenu = lazy(() => import("./components/overLayMenu/MobileMenu"));
 const DesktopSidebar = lazy(() =>
@@ -12,14 +12,12 @@ function App() {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
   const [theme, setTheme] = useState("light");
 
-  // Memoized toggle functions
   const toggleMenu = useCallback(() => setIsMenuOpen((prev) => !prev), []);
   const toggleTheme = useCallback(
     () => setTheme((prev) => (prev === "light" ? "dark" : "light")),
     []
   );
 
-  // Throttled resize listener
   useEffect(() => {
     let timeout;
     const handleResize = () => {
