@@ -263,7 +263,6 @@ export default function DesktopSidebar({ isOpen, onClose, theme }) {
               exit="exit"
               className="custom-scroll absolute inset-0 overflow-y-auto px-6 py-6"
             >
-              {/* Menu Items */}
               <motion.div
                 variants={containerVariants}
                 initial="hidden"
