@@ -14,7 +14,7 @@ This project was built during a **2-hour UI Hackathon**, focusing on a responsiv
 ### Screenshots & Demo PDF
 
 You can view all the UI screenshots and demo flow in this PDF:  
-[UI Hackathon Demo PDF](https://example.com/UI-Hackathon-Demo.pdf)
+[UI Hackathon Demo PDF]([https://example.com/UI-Hackathon-Demo.pdf](https://drive.google.com/file/d/1e8lR__KUMbBcj2R_24lYiO8MkCDppAue/view?usp=sharing))
 
 ---
 ## Weekend Improvements: Post-Hackathon Enhancements
@@ -31,7 +31,7 @@ After the initial 2-hour build, the following improvements were made over the we
 ### Video Demo
 
 You can watch a video showcasing the updated UI and improvements here:  
-[UI Hackathon Weekend Improvements Video](https://example.com/UI-Hackathon-Weekend-Improvements.mp4)
+[UI Hackathon Weekend Improvements Video]([https://example.com/UI-Hackathon-Weekend-Improvements.mp4](https://drive.google.com/file/d/1lnXe_5kxrr8LL4MxErBfl_ALk6o_ZBSR/view?usp=sharing))
 
 ---
 ## Installation and Running the Project
