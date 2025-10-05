@@ -14,7 +14,12 @@ This project was built during a **2-hour UI Hackathon**, focusing on a responsiv
 - **Minimal Animations** – Smooth transitions for an engaging UI  
 
 ---
+### Screenshots & Demo PDF
 
+You can view all the UI screenshots and demo flow in this PDF:  
+[UI Hackathon Demo PDF](https://example.com/UI-Hackathon-Demo.pdf)
+
+---
 ## Installation and Running the Project
 
 ### Step 1: Clone the repository
