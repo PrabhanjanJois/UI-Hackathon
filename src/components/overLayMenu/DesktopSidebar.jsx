@@ -48,33 +48,27 @@ export default function DesktopSidebar({ isOpen, onClose, theme }) {
       background: ${theme === "dark" ? "#6B7280" : "#9CA3AF"};
     }
   `;
+
   const pageVariants = {
     enter: {
       x: "100%",
-      scale: 1,
-      opacity: 1,
+      opacity: 0,
     },
     center: {
       x: 0,
-      scale: 1,
       opacity: 1,
       transition: {
         type: "spring",
-        stiffness: 350,
-        damping: 25,
-        mass: 0.5,
+        stiffness: 400,
+        damping: 35,
+        mass: 0.4,
       },
     },
     exit: {
-      x: -60,
-      scale: 0.95,
-      opacity: 0.5,
-      filter: "blur(2px)",
+      x: -30,
+      opacity: 0,
       transition: {
-        type: "spring",
-        stiffness: 350,
-        damping: 25,
-        mass: 0.5,
+        duration: 0.15,
       },
     },
   };
@@ -85,8 +79,8 @@ export default function DesktopSidebar({ isOpen, onClose, theme }) {
     visible: {
       opacity: 1,
       transition: {
-        staggerChildren: 0.04,
-        delayChildren: 0.08,
+        staggerChildren: 0.025,
+        delayChildren: 0.05,
       },
     },
   };
@@ -94,17 +88,13 @@ export default function DesktopSidebar({ isOpen, onClose, theme }) {
   const itemVariants = {
     hidden: {
       opacity: 0,
-      x: -20,
-      filter: "blur(4px)",
+      y: 10,
     },
     visible: {
       opacity: 1,
-      x: 0,
-      filter: "blur(0px)",
+      y: 0,
       transition: {
-        type: "spring",
-        stiffness: 500,
-        damping: 30,
+        duration: 0.2,
       },
     },
   };
@@ -272,7 +262,6 @@ export default function DesktopSidebar({ isOpen, onClose, theme }) {
               animate="center"
               exit="exit"
               className="custom-scroll absolute inset-0 overflow-y-auto px-6 py-6"
-              style={{ willChange: "transform, opacity" }}
             >
               {/* Menu Items */}
               <motion.div
