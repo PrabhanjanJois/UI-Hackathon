@@ -1,5 +1,20 @@
 # UI Hackathon
 
+## Hackathon Day: Quick 2-Hour Build
+
+This project was built during a **2-hour UI Hackathon**, focusing on a responsive and interactive menu interface.
+
+---
+
+## Features
+
+- **Mobile & Desktop Menu View** – Seamless menu experience across devices  
+- **Dark & Light Mode** – Toggle between themes  
+- **Nested Submenus** – Organize menu items with expandable submenus  
+- **Minimal Animations** – Smooth transitions for an engaging UI  
+
+---
+
 ## Installation and Running the Project
 
 ### Step 1: Clone the repository
