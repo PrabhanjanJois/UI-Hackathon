@@ -4,16 +4,13 @@
 
 This project was built during a **2-hour UI Hackathon**, focusing on a responsive and interactive menu interface.
 
----
-
 ### Features
 
 - **Mobile & Desktop Menu View** – Seamless menu experience across devices  
 - **Dark & Light Mode** – Toggle between themes  
 - **Nested Submenus** – Organize menu items with expandable submenus  
-- **Minimal Animations** – Smooth transitions for an engaging UI  
-
----
+- **Minimal Animations** – Smooth transitions for an engaging UI
+  
 ### Screenshots & Demo PDF
 
 You can view all the UI screenshots and demo flow in this PDF:  
